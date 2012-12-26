@@ -20,6 +20,7 @@ Making a site accessible is intended to make your site useable by the broadest s
 2. Search and autocomplete widget results must be keyboard accessible
 3. Search and autocomplete widget results must be exposed to assistive technology
 4. All images should have explanatory text via the 'alt' attribute
+5. Labels and inputs should use 'for' and 'id' attributes respectively.
 
 ### Most common problematic items
 
@@ -141,6 +142,7 @@ References
 * [Rough Guide: browsers, operating systems and screen reader support](http://www.paciellogroup.com/blog/2012/02/rough-guide-browsers-operating-systems-and-screen-reader-support/)
 * [Screen Reader User Survey #4 Results](http://webaim.org/projects/screenreadersurvey4/)
 * [Pro HTML5 Accessibility](http://www.apress.com/9781430241942)
+* [Accessibility Handbook](http://shop.oreilly.com/product/0636920024514.do)
 
 Interesting Links
 * [jQuery UI Accessibility Test](http://hanshillen.github.com/jqtest/#goto_slider)
