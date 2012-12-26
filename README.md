@@ -37,7 +37,17 @@ Making a site accessible is intended to make your site useable by the broadest s
 12.Lack of "skip to main content" or "skip navigation" links  
 http://webaim.org/projects/screenreadersurvey4/
 
-## Widgets
+## Elements
+
+### Hidden Text
+
+Use a hidden css class instead of `display:none;` or `visibility:hidden;`.
+
+```css
+   .hidden {
+       text-indent: -4000px;
+   }
+```
 
 ### Tables
 
