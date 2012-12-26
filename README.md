@@ -86,3 +86,8 @@ References
 * [Rough Guide: browsers, operating systems and screen reader support](http://www.paciellogroup.com/blog/2012/02/rough-guide-browsers-operating-systems-and-screen-reader-support/)
 * [Screen Reader User Survey #4 Results](http://webaim.org/projects/screenreadersurvey4/)
 
+Interesting Links
+* [jQuery UI Accessibility Test](http://hanshillen.github.com/jqtest/#goto_slider)
+* [Sim Daltonism](http://michelf.ca/projects/sim-daltonism/)
+* 
+
