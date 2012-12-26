@@ -37,9 +37,74 @@ Making a site accessible is intended to make your site useable by the broadest s
 12.Lack of "skip to main content" or "skip navigation" links  
 http://webaim.org/projects/screenreadersurvey4/
 
-### Widgets
+## Widgets
 
-#### Autocomplete Widgets
+### Tables
+
+All tables should have a `<caption>` element to help screen readers.  There are primarily two methods for creating accessible tables.
+
+* Method 1 - Header/ID Combinations  
+	<table>
+	<caption>A Summary of Upcoming Bootcamps</caption>
+	<th id="Course">Course</th>
+	<th id="Date">Date</th>
+	<th id="Cost">Cost</th>
+	<tr>
+	<td headers="Course">MVC Bootcamp</td>
+	<td headers="Start">April 12</td>
+	<td headers="Cost">$2000</td>
+	</tr>
+	<tr>
+	<td headers="Course">RavenDB Bootcamp</td>
+	<td headers="Start">March 12</td>
+	<td headers="Cost">$1500</td>
+	</tr>
+	</table>
+* Method 2 - Header/Scope Combination
+	<table>
+	<caption>A Summary of Upcoming Bootcamps</caption>
+	<tbody>
+	<tr>
+	<th scope="col">Course</th>
+	<th scope="col">Date</th>
+	<th scope="col">Cost</th>
+	</tr>
+	<tr>
+	<th scope="row">MVC Bootcamp</th>
+	<td>April 12</td>
+	<td>$2000</td>
+	</tr>
+	<tr>
+	<th scope="row">RavenDB Bootcamp</th>
+	<td>March 12</td>
+	<td>$1500</td>
+	</tr>
+	</tbody>
+	</table>
+
+<table>
+<caption>A Summary of Upcoming Bootcamps</caption>
+<tbody>
+<tr>
+<th scope="col">Course</th>
+<th scope="col">Date</th>
+<th scope="col">Cost</th>
+</tr>
+<tr>
+<th scope="row">MVC Bootcamp</th>
+<td>April 12</td>
+<td>$2000</td>
+</tr>
+<tr>
+<th scope="row">RavenDB Bootcamp</th>
+<td>March 12</td>
+<td>$1500</td>
+</tr>
+</tbody>
+</table>
+
+
+### Autocomplete Widgets
 
 An autocomplete widget should be keyboard accessible.
 
