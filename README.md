@@ -60,7 +60,7 @@ All tables should have a `<caption>` element to help screen readers.  There are 
 	<td headers="Cost">$1500</td>
 	</tr>
 	</table>
-* Method 2 - Header/Scope Combination
+* Method 2 - Header/Scope Combination  
 	<table>
 	<caption>A Summary of Upcoming Bootcamps</caption>
 	<tbody>
@@ -81,27 +81,6 @@ All tables should have a `<caption>` element to help screen readers.  There are 
 	</tr>
 	</tbody>
 	</table>
-
-<table>
-<caption>A Summary of Upcoming Bootcamps</caption>
-<tbody>
-<tr>
-<th scope="col">Course</th>
-<th scope="col">Date</th>
-<th scope="col">Cost</th>
-</tr>
-<tr>
-<th scope="row">MVC Bootcamp</th>
-<td>April 12</td>
-<td>$2000</td>
-</tr>
-<tr>
-<th scope="row">RavenDB Bootcamp</th>
-<td>March 12</td>
-<td>$1500</td>
-</tr>
-</tbody>
-</table>
 
 
 ### Autocomplete Widgets
