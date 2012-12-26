@@ -123,6 +123,7 @@ http://webaim.org/projects/screenreadersurvey4/
 3. [IE Web Accessibility Toolbar](http://www.paciellogroup.com/resources/wat/ie)
 4. [Google Chrome - High Contrast Ext](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph)
   * Google Chrome does not support Windows High Contrast mode out of the box.
+5. [Color Contrast Analyzer](http://www.paciellogroup.com/resources/contrastAnalyser)
 
 
 References
