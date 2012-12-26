@@ -48,11 +48,11 @@ An autocomplete widget should be keyboard accessible.
 ### Screen Readers
 
 * Windows
-  * JAWS
-  * NVDA
+  * [JAWS](http://www.freedomscientific.com/products/fs/jaws-product-page.asp)
+  * [NVDA](http://www.nvda-project.org/)
   * Window Eyes
 * Mac OS X and iOS
-  * VoiceOver
+  * [VoiceOver](http://www.apple.com/accessibility/voiceover/)
 * Linux
   * Orca
 * Chrome OS
