@@ -48,6 +48,16 @@ Use a hidden css class instead of `display:none;` or `visibility:hidden;`.
    .hidden {
        text-indent: -4000px;
    }
+   
+   \* kendo ui hidden *\
+   .hidden {
+        position:absolute;
+        left:-10000px;
+        top:auto;
+        width:1px;
+	height:1px;
+        overflow:hidden;
+    }
 ```
 
 ### Tables
@@ -143,6 +153,8 @@ References
 * [Screen Reader User Survey #4 Results](http://webaim.org/projects/screenreadersurvey4/)
 * [Pro HTML5 Accessibility](http://www.apress.com/9781430241942)
 * [Accessibility Handbook](http://shop.oreilly.com/product/0636920024514.do)
+* [Using JAWS to Evaluate Web Accessibility](http://webaim.org/articles/jaws/)
+* [Tips For Creating Accessible Charts With Kendo UI DataViz](http://docs.kendoui.com/tutorials/accessibility/five-tips-for-accessible-charts-with-dataviz)
 
 Interesting Links
 * [jQuery UI Accessibility Test](http://hanshillen.github.com/jqtest/#goto_slider)
