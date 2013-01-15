@@ -157,6 +157,7 @@ References
 * [Tips For Creating Accessible Charts With Kendo UI DataViz](http://docs.kendoui.com/tutorials/accessibility/five-tips-for-accessible-charts-with-dataviz)
 
 Interesting Links
+* [http://www.ajmcclary.com/configuring-your-website-to-work-with-jaws.html](Configuring Your Website to Work with JAWS)
 * [jQuery UI Accessibility Test](http://hanshillen.github.com/jqtest/#goto_slider)
 * [Sim Daltonism](http://michelf.ca/projects/sim-daltonism/)
 
