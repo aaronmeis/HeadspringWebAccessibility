@@ -60,6 +60,77 @@ Use a hidden css class instead of `display:none;` or `visibility:hidden;`.
     }
 ```
 
+The best set of css classes for dealing with showing and hiding elements related to screen readers are the css classes in the 
+HTML 5 Boilerplate project.
+
+```css
+    /*
+     * Image replacement
+     */
+
+    .ir {
+        background-color: transparent;
+        border: 0;
+        overflow: hidden;
+        /* IE 6/7 fallback */
+        *text-indent: -9999px;
+    }
+
+    .ir:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 150%;
+    }
+
+    /*
+     * Hide from both screenreaders and browsers: h5bp.com/u
+     */
+
+    .hidden {
+        display: none !important;
+        visibility: hidden;
+    }
+
+    /*
+     * Hide only visually, but have it available for screenreaders: h5bp.com/v
+     */
+
+    .visuallyhidden {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    /*
+     * Extends the .visuallyhidden class to allow the element to be focusable
+     * when navigated to via the keyboard: h5bp.com/p
+     */
+
+    .visuallyhidden.focusable:active,
+    .visuallyhidden.focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+    }
+
+    /*
+     * Hide visually and from screenreaders, but maintain layout
+     */
+
+    .invisible {
+        visibility: hidden;
+    }
+```
+
 ### Tables
 
 All tables should have a `<caption>` element to help screen readers.  There are primarily two methods for creating accessible tables.
