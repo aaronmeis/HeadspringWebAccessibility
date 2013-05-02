@@ -61,7 +61,7 @@ Use a hidden css class instead of `display:none;` or `visibility:hidden;`.
 ```
 
 The best set of css classes for dealing with showing and hiding elements related to screen readers are the css classes in the 
-HTML 5 Boilerplate project.
+[HTML 5 Boilerplate project](http://html5boilerplate.com/).
 
 ```css
     /*
