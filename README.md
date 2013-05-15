@@ -16,11 +16,11 @@ Making a site accessible is intended to make your site useable by the broadest s
 
 ### Checklist
 
-- [ ] The language in the header must be correct as it is the default used by screenreaders `<html lang="en">`
-- [ ] Search and autocomplete widget results must be keyboard accessible
-- [ ] Search and autocomplete widget results must be exposed to assistive technology
-- [ ] Images should have explanatory text via the 'alt' attribute when not duplicating information.
-- [ ] Labels and inputs should use 'for' and 'id' attributes respectively.
+* The language in the header must be correct as it is the default used by screenreaders `<html lang="en">`
+* Search and autocomplete widget results must be keyboard accessible
+* Search and autocomplete widget results must be exposed to assistive technology
+* Images should have explanatory text via the 'alt' attribute when not duplicating information.
+* Labels and inputs should use 'for' and 'id' attributes respectively.
 
 ### Most common problematic items
 
@@ -39,6 +39,10 @@ Making a site accessible is intended to make your site useable by the broadest s
 http://webaim.org/projects/screenreadersurvey4/
 
 ## Elements
+
+### Skip Links
+
+
 
 ### Hidden Text
 
