@@ -16,11 +16,11 @@ Making a site accessible is intended to make your site useable by the broadest s
 
 ### Checklist
 
-1. The language in the header must be correct as it is the default used by screenreaders `<html lang="en">`
-2. Search and autocomplete widget results must be keyboard accessible
-3. Search and autocomplete widget results must be exposed to assistive technology
-4. All images should have explanatory text via the 'alt' attribute
-5. Labels and inputs should use 'for' and 'id' attributes respectively.
+- [ ] The language in the header must be correct as it is the default used by screenreaders `<html lang="en">`
+- [ ] Search and autocomplete widget results must be keyboard accessible
+- [ ] Search and autocomplete widget results must be exposed to assistive technology
+- [ ] Images should have explanatory text via the 'alt' attribute when not duplicating information.
+- [ ] Labels and inputs should use 'for' and 'id' attributes respectively.
 
 ### Most common problematic items
 
