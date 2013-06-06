@@ -21,6 +21,7 @@ Making a site accessible is intended to make your site useable by the broadest s
 * Search and autocomplete widget results must be exposed to assistive technology
 * Images should have explanatory text via the 'alt' attribute when not duplicating information.
 * Labels and inputs should use 'for' and 'id' attributes respectively.
+* Luminosity contrast must be >= 4.5 to 1 for users with vision impairment
 
 ### Most common problematic items
 
